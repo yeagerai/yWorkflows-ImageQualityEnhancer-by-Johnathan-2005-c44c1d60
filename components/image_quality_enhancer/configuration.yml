@@ -2,5 +2,7 @@ description: A workflow that takes an input image, applies an enhancement algori
   generates a side-by-side comparison of the original and enhanced images along with
   suggested edits, and outputs the final enhanced image. This workflow is designed
   to improve the quality of images using advanced image processing techniques.
+input-class: ImageUpload
 name: ImageQualityEnhancer
+output-class: ImageComparison
 parameters: {}
